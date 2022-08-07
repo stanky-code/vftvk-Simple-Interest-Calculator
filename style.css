@@ -6,6 +6,7 @@ color: white;
 h1{
 color:grey;
 text-align: center;
+font-family: veranda;
 }
 .maindiv{
 background-color: white;
@@ -17,5 +18,5 @@ text-align: center;
 }
 footer{
 color: black;
-text-align: left;
+text-align: center;
 }
