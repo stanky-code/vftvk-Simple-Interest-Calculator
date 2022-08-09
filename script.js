@@ -9,4 +9,10 @@ function compute() {   // programs variables needed to complete logic and calcul
         alert('Enter a positive number.')
     }else{
         document.getElementById("result").innerHTML = `If you deposit <mark>${principal}</mark>,<br> at an interest rate of <mark>${rate}</mark>%.<br> You will receive an amount of <mark>${interest}</mark>,<br> in the year ${year}<br>`
-
+    }
+};
+//Updates interest rate based on slider position.
+function updateRate() {
+    var rateval = document.getElementById("rate").value;
+    document.getElementById("rate_val").innerText=rateval;
+};
